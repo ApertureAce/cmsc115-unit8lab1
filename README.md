@@ -1,36 +1,39 @@
 # Lab Reflection: Unit 8 Lab 1 - Git Version Control + Debugging (BuggyProgram)
 
 ## Student Name
-Enter your name here.
+Hayden Bourgeois
 
 ## GitHub Repository URL
-Paste your GitHub repository URL here.
+https://github.com/ApertureAce/cmsc115-unit8lab1
 
 ---
 
 # Commit 1: Initial Commit
 
 ## What did you include in this commit?
--
+- Starter project files for Unit 8 Lab 1 before changes.
+
 
 ## What was the purpose of this commit?
--
+- To create a baseline and record of the first version of this project.
 
 ---
 
 # Commit 2: Task 1 (getGrade)
 
 ## Which tests in Task1Test were failing before your fix?
--
+- testEdges() and testGrades() both failed.
 
 ## What was the issue in the code?
--
+- The print appropriate print statements for score > 90 and score > 80 were swapped.
+- Edge case issues associated with '>' operator.
 
 ## What change did you make to fix it?
--
+- Swapped print statements for 90 and 80 edge cases.
+- Changed '>' operator to '>=' for scores, '80' and '90'.
 
 ## How did the tests help guide your fix?
--
+- By examining the test cases used in the test code, I made the connection that the program expected >= 90 to return "Exceed" and >= 80 to return "Meets".
 
 ---
 
