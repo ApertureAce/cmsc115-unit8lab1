@@ -22,7 +22,8 @@ https://github.com/ApertureAce/cmsc115-unit8lab1
 # Commit 2: Task 1 (getGrade)
 
 ## Which tests in Task1Test were failing before your fix?
-- testEdges() and testGrades() both failed.
+- testEdges()
+- testGrades()
 
 ## What was the issue in the code?
 - The print appropriate print statements for score > 90 and score > 80 were swapped.
@@ -40,7 +41,9 @@ https://github.com/ApertureAce/cmsc115-unit8lab1
 # Commit 3: Task 2 (sumEvenNumbers)
 
 ## Which tests in Task2Test were failing before your fix?
-- testEmpty(), testOddNumber(), and testSumEvenNumbers() all failed.
+- testEmpty()
+- testOddNumber()
+- testSumEvenNumbers()
 
 ## What was the issue in the code?
 - sum variable was initialized to '1' instead of 0.
@@ -60,16 +63,17 @@ https://github.com/ApertureAce/cmsc115-unit8lab1
 # Commit 4: Task 3 (sumRange)
 
 ## Which tests in Task3Test were failing before your fix?
--
+- testSumRangeReverseOrder()
+
 
 ## What was the issue in the code?
--
+- The code didn't check to see if if 'start' was greater than 'end' so the program loop incremented i instead of decrementing
 
 ## What change did you make to fix it?
--
+- Created an if-else statement that changes for loop inc/dec for i variable.
 
 ## How did the tests help guide your fix?
--
+- By observing that only testSumRangeReverseOrder() failed, I could narrow the down the precise issue.
 
 ---
 
