@@ -40,16 +40,20 @@ https://github.com/ApertureAce/cmsc115-unit8lab1
 # Commit 3: Task 2 (sumEvenNumbers)
 
 ## Which tests in Task2Test were failing before your fix?
--
+- testEmpty(), testOddNumber(), and testSumEvenNumbers() all failed.
 
 ## What was the issue in the code?
--
+- sum variable was initialized to '1' instead of 0.
+- Program did not check for null array.
+- for loop comparison had bounds issue related to <= operator.
 
 ## What change did you make to fix it?
--
+- Initialized 'sum' to 0.
+- Added section to return false if array length is 0.
+- Changed for loop comparison operator from '<=' to '<'.
 
 ## How did the tests help guide your fix?
--
+- The test program showed me which conditions failed so I could consult examine the code that tested those conditions.
 
 ---
 
